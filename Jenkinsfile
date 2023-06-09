@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git checkout') {
            steps{
-                git branch: 'main', credentialsId: 'MK', url: 'https://github.com/mhkrhn/terrajenk'
+                git branch: 'main', credentialsId: 'MK', url: 'https://github.com/mhkrhn/terrab13'
             }
         }
         stage('terraform format check') {
