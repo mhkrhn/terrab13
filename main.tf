@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "webserver" {
-   name = "mkbrief13prod"
+   name = "mkb13jenkins"
    location = var.location
 }
 
@@ -91,7 +91,7 @@ resource "azurerm_linux_virtual_machine" "nginx" {
        version = "latest"
    }
 
-   computer_name = "mkstaging"
+   computer_name = "mkb13"
    admin_username = "mkadminuser"
    admin_password = "MKarahan507144"
    disable_password_authentication = false
