@@ -15,7 +15,7 @@ variable "subscription_id" {
 
 variable "tenant_id" {
    description = "Azure Tenant ID"
-   default = "7349d3b2-951f-41be-877e-d8ccd9f3e73c"
+   default = ""7349d3b2-951f-41be-877e-d8ccd9f3e73c""
 }
 
 variable "instance_size" {
